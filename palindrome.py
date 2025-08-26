@@ -12,7 +12,7 @@ from collections import deque
 
 def is_palindrome(s: str):
     dq = deque()
-    dq.extend(s.lower())
+    dq.extend(s.lower().replace(' ', ''))
 
     while len(dq) > 1:
         if dq.popleft() != dq.pop():
