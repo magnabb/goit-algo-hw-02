@@ -27,3 +27,4 @@ if __name__ == '__main__':
     check('abba')
     check('abab')
     check('12321')
+    check('1 23 21')
